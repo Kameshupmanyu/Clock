@@ -1,0 +1,67 @@
+#clock{
+    
+    margin: auto;
+    border-spacing: 2px;
+    border: 5px dashed crimson;
+    border-radius: 50vw;
+    width:50vw;
+    height: 50vw;
+    align-content: center;
+    background: wheat url(clock.png) no-repeat;
+   background-size: 100%;
+   position: relative;
+}
+
+#inc{
+    
+    position: absolute;
+    border: 1px dashed green;
+    border-radius: 100%;
+    width: 4%;
+    height: 4%;
+    /* top: 50%; */
+    top: 49%;
+    right: 47.55%;
+    background:darkblue;
+}
+
+#hr,#min,#sec{
+    position: absolute;
+    background: darkblue;
+    transform-origin: bottom;
+}
+
+#hr{
+    
+   width: 1%;
+   height: 25%;
+    top:25%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+
+#min{
+    width: 1%;
+    height: 35%;
+     top: 17%;
+     left: 50%;
+     opacity:0.6;
+}
+
+#sec{
+    width: 1%;
+    height: 40%;
+     top:11%;
+     left: 50%;
+     opacity: 0.3;
+}
+body{
+    background-color: darkslategrey;
+    overflow: hidden;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
